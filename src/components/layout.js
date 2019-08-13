@@ -45,7 +45,7 @@ class Layout extends React.Component {
               {({ toggleTheme }) => (
                 <Switch
                   value={["Gece","Gündüz"]}
-                  state={localStorage.theme === "dark"}
+                  state={window.localStorage.theme === "dark"}
                   getFunc={(e) => {
                     toggleTheme(e ? 'dark' : 'light');
                   }}
