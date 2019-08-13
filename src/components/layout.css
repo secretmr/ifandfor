@@ -1,0 +1,39 @@
+body {
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+body.dark {
+    background-color: #161616;
+    color: #e3e3e3;
+    transition: 0.5s;
+}
+
+body h6 {
+    color: #161616;
+}
+body.dark h6 {
+    color: #d35400;
+}
+
+body a {
+    color: #d35400;
+}
+body.dark a {
+    color: orange;
+}
+
+body p {
+    color: #6f6f6f;
+}
+body.dark p {
+    color: #dbdbdb;
+}
+
+body.dark b {
+    color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
