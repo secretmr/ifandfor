@@ -41,7 +41,16 @@ class Layout extends React.Component {
       >
         <header>
           {header}
-          <div className="themeToggler">
+          <div
+            className="themeToggler"
+            style={{
+              marginBottom: "2.625rem",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginLeft: "10px"
+            }}
+          >
             <ThemeToggler>
               {({ toggleTheme }) => (
                 <Switch
