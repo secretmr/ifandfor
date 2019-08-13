@@ -1,5 +1,6 @@
 ---
 title: Neyin kafası ?
+description: Bu site de ne ? Bu yazılar da neyin nesi ?
 date: "2019-05-22T22:00:57.284Z"
 ---
 
