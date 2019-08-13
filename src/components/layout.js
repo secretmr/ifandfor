@@ -4,6 +4,7 @@ import { rhythm, scale } from "../utils/typography";
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
 import "./layout.css";
 import Switch from '../components/core/switch';
+import localStorage from 'localStorage';
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
